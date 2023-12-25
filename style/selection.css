@@ -1,0 +1,36 @@
+h2{
+            
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+    .left{
+        margin-left: 22px;
+    }
+    
+
+    form.row, section{
+        margin-left: 20px;
+    }
+  
+    header button.btn{
+        border:1px solid;
+       
+    }
+    .text-gray{
+        color:grey
+    }
+   .img_agencia{
+       border:1px solid gray;
+       border-radius: 12px;
+   }
+   .flex{
+       display: flex;
+       flex-wrap: wrap;
+       
+   }
+   .flex > div{
+    width: 33%;
+    margin:20px
+   }

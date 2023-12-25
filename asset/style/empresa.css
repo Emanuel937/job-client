@@ -1,0 +1,14 @@
+.left{
+    margin-left: 22px;
+}
+
+form.row, section{
+    margin-left: 20px;
+}
+header button.btn{
+    border:1px solid;
+   
+}
+.text-gray{
+    color:grey
+}

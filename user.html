@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2ecf4ce6d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/header.css">
+    <style>
+        selection#left{
+            height:100vh;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li{
+            font-size:19px;
+            padding-top: 30px;
+        }
+        ul li:hover{
+            color:blue
+        }
+        article.right{
+            background-color:#F2F6FB;
+            height: 100vh;
+        }
+        selection.right{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        selection.right > div{
+            width: 33%;
+            margin-top:20px;
+            margin-bottom: 10px;
+            margin-left:12px;
+            height: 33vh;
+         
+        }
+        .row{
+            margin:0px;
+        }
+        h1{
+            font-size:20px;
+            margin-top:25px;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:22px;
+            margin-left: 22px;
+            font-weight: bold;
+        }
+        .bg-v{
+          background-color:blueviolet
+        }
+        .commerçant{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article class="row">
+            <selection class="col-md-3" id="left">
+                <h1 class="text-center"> Esta conta é para os anunciadores somente</h1>
+                <h2 class="text-center">Öprom<span style="color:blueviolet">o</span></h2>
+                <ul>
+                    <li><a href="./user.html"> <i class="fa-solid fa-gauge-simple"></i> Dashboard</a></li>
+                    <li><i class="fa-solid fa-user-pen"></i> Inormaçoes pessoais</li>
+                    <li ><i class="fa-solid fa-bullhorn"></i> Meus anuncios publicado </li>
+                    <li > <i class="fa-solid fa-plus"></i> Publicar anuncios</li>
+                    <li> <i class="fa-solid fa-signal"></i> Activar meu status</li>
+                    <li ><a><i class="fa-solid fa-magnifying-glass-plus"></i>  Encontrar o benefeciario </a></li>
+                    <li ><a> <i class="fa-solid fa-info"></i> Ajuda  </a></li>
+                </ul>
+                <hr>
+                <p class="text-center mt-5 mb-5">&copy; criado pela sitefix</p>
+                <hr>
+            </selection>
+            <article class="col-md-9 right" >
+            <div class="text-right">
+                <button class="btn border bg-v text-white mt-3"> + Fazer anuncio</button>
+            </div>
+            <!-- primeira -->
+            <selection class="right" style="display:none;">
+               
+              
+                  <div class="card text-center" style="width:18rem;" >
+                    <div class="card-body">
+                      <h5 class="card-title">vente </h5>
+                      <p class="card-text">Este é o total das vendas realisado pelos comerciantes.</p>
+                     <h3 class="text-primary">70.000,00€</h3>
+                    </div>
+                  </div>
+                  <div class="card text-center" style="width:18rem;" >
+                    <div class="card-body">
+                      <h5 class="card-title">Comissao</h5>
+                      <p class="card-text">Este é valor da comissao que iras pagar ou que ja pagaste.</p>
+                     <h3 class="text-danger">10,000€</h3>
+                    </div>
+                  </div>
+                  <div class="card text-center" style="width:18rem;" >
+                    <div class="card-body">
+                      <h5 class="card-title">GAin</h5>
+                      <p class="card-text">Este valor representa a venda menos as comiçao e a reduçao.</p>
+                     <h3>60.0000</h3>
+                    </div>
+                  </div>
+              
+                  <div class="card text-center" style="width:18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Status </h5>
+                      <p class="card-text"> Voce nao esta autorizado a receber comiçao , para começar receber a comiçao , <a href="#">clica em aqui .</a></p>
+                    </div>
+                  </div>
+
+                  <div class="card text-center" style="width:18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">N° pub activado </h5>
+                      <p class="card-text"> Voce nao esta autorizado a receber comiçao , para começar receber a comiçao , <a href="#">clica em aqui .</a></p>
+                      <h3>10</h3>
+                    </div>
+                  </div>
+                  <div class="card text-center" style="width:18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">La mieux venda </h5>
+                      <h3 class="card-text text-primary"> RMC-7 </h3>
+                    </div>
+                  </div>
+                 
+                  <!-- status commercent-->
+                  <div class="card text-center commerçant" style="width:18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">N° d'achat </h5>
+                      <h3 class="text-primary" style="font-size:45px;">20</h3>
+                      <h6> <i class="fa-solid fa-arrow-trend-up"></i> Total de comiçao: <span class="badge badge-danger ">200,00€</span></h6>
+                      <h6>cm en %: <span class="badge badge-info ">10%</span></h6>
+                    </div>
+                  </div>
+                  <div class="card commerçant" style="width:18rem;" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Codigo da promoçao</h5>
+                      <p class="card-text">Este é teu codigo promotional !</p>
+                      <h4 class="text-center mt-4">10RTPP</h4>                    
+                    </div>
+                  </div>
+            </selection>
+            <!-- segunda parte -->
+            <section>
+                <h2> Informaçoes pessoais:</h2>
+                <form class="row">
+                    <p class="col-md-6"><input type="text" value="Nome" class="form-control"></p>
+                    <p class="col-md-6"><input type="text" value="Sobre nome" class="form-control"></p>
+                    <p class="col-md-6"><input type="e-mail" value="Emanuel@gmail.com" class="form-control" readonly></p>
+                    <p class="col-md-6"><input type="tel" value="+33 0000000" class="form-control"></p>
+                    <div class="col-md-12">
+                        <h3>Mudar a palavra passe</h3>
+                        <p class="col-md-6"><input type="password"  class="form-control" placeholder="antiga palavra passe"></p>
+                        <p class="col-md-6"><input type="password"  class="form-control" placeholder="Nova palavra passe"></p>
+                        <p class="col-md-6"><input type="password"  class="form-control" placeholder="confirmar a nova palavra passe"></p>
+                   
+                    </div>
+                    <div class="col-md-12">
+                        <h3>Informaçoes bancarias</h3>
+                        <p> Precisamos desta informaçoes para poder enviar a tua comiçao directamente na tua conta bancaria !</p>
+                        <p class="col-md-12"><input type="text"  class="form-control" placeholder="IBAN"></p>
+                        <p class="col-md-12"><input type="text"  class="form-control" placeholder="RIB"></p>
+                    </div>
+                    <button class="btn bg-primary text-white ml-4"> Salvar as alteraçoes </button>
+
+                    
+                </form>
+            </section>
+        </article>
+        </article>
+        </article>
+
+    </main>
+</body>
+</html>
